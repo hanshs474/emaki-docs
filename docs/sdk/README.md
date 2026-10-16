@@ -9,6 +9,9 @@ Official SDK clients for emaki (emaki.ai), the Japanese-language AI video genera
 | Go | `go get github.com/hanshs474/emaki-go` | [hanshs474/emaki-go](https://github.com/hanshs474/emaki-go) |
 | Rust | `cargo add emaki` | [hanshs474/emaki-rs](https://github.com/hanshs474/emaki-rs) |
 | Java / Kotlin | `io.github.hanshs474:emaki` | [hanshs474/emaki-java](https://github.com/hanshs474/emaki-java) |
+| Ruby | `gem install emaki` | [hanshs474/emaki-rb](https://github.com/hanshs474/emaki-rb) |
+| Dart / Flutter | `dart pub add emaki` | [hanshs474/emaki-dart](https://github.com/hanshs474/emaki-dart) |
+| PHP | `composer require hanshs474/emaki` | [hanshs474/emaki-php](https://github.com/hanshs474/emaki-php) |
 
 From an agent instead of code: the [MCP server](../integrations/mcp.md). Writing your own client: the [HTTP API](../http.md) is two calls.
 

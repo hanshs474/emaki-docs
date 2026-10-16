@@ -32,5 +32,5 @@ out = ['# SDKs', '',
        '| Language | Install | Source |', '|---|---|---|', *rows, '',
        'From an agent instead of code: the [MCP server](../integrations/mcp.md). Writing your own client: the [HTTP API](../http.md) is two calls.', '',
        'Default video model: [Seedance 2.5](https://emaki.ai/seedance-2-5). For [image to video](https://emaki.ai/image-to-video), pass a first-frame URL as `image`.', '']
-open(os.path.join(ROOT, 'emaki-docs/docs/sdk/index.md'), 'w').write('\n'.join(out))
+open(os.path.join(ROOT, 'emaki-docs/docs/sdk/README.md'), 'w').write('\n'.join(out))
 print('\n'.join(rows))

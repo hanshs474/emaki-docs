@@ -10,7 +10,7 @@ Official API and SDK documentation for emaki (emaki.ai), the Japanese-language A
 
 1. Sign in on [emaki.ai](https://emaki.ai/?utm_source=readthedocs&utm_medium=docs).
 2. Create a key at [emaki.ai/settings/apikeys](https://emaki.ai/settings/apikeys).
-3. `export EMAKI_API_KEY=sk-...` and call the API, an [SDK](sdk/index.md) or the [MCP server](integrations/mcp.md).
+3. `export EMAKI_API_KEY=sk-...` and call the API, an [SDK](sdk/README.md) or the [MCP server](integrations/mcp.md).
 
 ```bash
 curl -s -X POST https://emaki.ai/api/video/ai \
