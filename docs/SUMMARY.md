@@ -6,3 +6,8 @@
 * [SDKs](sdk/README.md)
   * [Python](sdk/python.md)
 * [MCP server (Claude, Cursor, Gemini CLI)](integrations/mcp.md)
+* [LangChain](integrations/langchain.md)
+* [Haystack](integrations/haystack.md)
+* [Vercel AI SDK](integrations/ai-sdk.md)
+* [ComfyUI](integrations/comfyui.md)
+* [Dify](integrations/dify.md)
