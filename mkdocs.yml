@@ -1,0 +1,15 @@
+site_name: emaki API and SDKs
+site_url: https://emaki.readthedocs.io/
+repo_url: https://github.com/hanshs474/emaki-docs
+site_description: Official API and SDK documentation for emaki (emaki.ai), the Japanese-language AI video generator for Seedance 2.5 and Seedance 2.0. One API key for text to video, image to video and AI images.
+theme: readthedocs
+nav:
+  - Overview: index.md
+  - HTTP API: http.md
+  - Models and parameters: models.md
+  - SDKs: sdk/index.md
+  - Python: sdk/python.md
+  - MCP server (Claude, Cursor, Gemini CLI): integrations/mcp.md
+
+exclude_docs: |
+  SUMMARY.md
