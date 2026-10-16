@@ -11,7 +11,14 @@ Official SDK clients for emaki (emaki.ai), the Japanese-language AI video genera
 | Java / Kotlin | `io.github.hanshs474:emaki` | [hanshs474/emaki-java](https://github.com/hanshs474/emaki-java) |
 | Ruby | `gem install emaki` | [hanshs474/emaki-rb](https://github.com/hanshs474/emaki-rb) |
 | Dart / Flutter | `dart pub add emaki` | [hanshs474/emaki-dart](https://github.com/hanshs474/emaki-dart) |
+| Elixir | see the repository | [hanshs474/emaki-ex](https://github.com/hanshs474/emaki-ex) |
+| R | `install.packages("emaki", repos = c("https://hanshs474.r-universe.dev", "https://cloud.r-project.org"))` | [hanshs474/emaki-r](https://github.com/hanshs474/emaki-r) |
+| Lua | `luarocks install emaki` | [hanshs474/emaki-lua](https://github.com/hanshs474/emaki-lua) |
+| D | `dub add emaki` | [hanshs474/emaki-d](https://github.com/hanshs474/emaki-d) |
 | PHP | `composer require hanshs474/emaki` | [hanshs474/emaki-php](https://github.com/hanshs474/emaki-php) |
+| .NET | `dotnet add package Emaki` | [hanshs474/emaki-dotnet](https://github.com/hanshs474/emaki-dotnet) |
+| Clojure | see the repository | [hanshs474/emaki-clj](https://github.com/hanshs474/emaki-clj) |
+| Docker (CLI image) | `docker run --rm -e EMAKI_API_KEY san8888/emaki "a paper lantern drifting down a night river, slow dolly-in"` | [hanshs474/emaki-docker](https://github.com/hanshs474/emaki-docker) |
 
 From an agent instead of code: the [MCP server](../integrations/mcp.md). Writing your own client: the [HTTP API](../http.md) is two calls.
 

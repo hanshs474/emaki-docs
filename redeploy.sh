@@ -8,4 +8,4 @@ curl -s -X POST -H "Authorization: Token $RTD_API_TOKEN" https://readthedocs.org
 H="Authorization: Bearer $GITBOOK_API_TOKEN"
 curl -s -o /dev/null -w "gitbook import %{http_code}\n" -X POST -H "$H" -H "Content-Type: application/json" https://api.gitbook.com/v1/spaces/QG9cPTxCsnWyYFW85ISe/git/import -d '{"url":"https://github.com/hanshs474/emaki-docs.git","ref":"refs/heads/main","force":true}'
 sleep 15
-curl -s -o /dev/null -w "gitbook publish %{http_code}\n" -X POST -H "$H" https://api.gitbook.com/v1/orgs/3LCdcxqOJHNoV0wUxyXQ/sites/site_68aqf/publish
+curl -s -o /dev/null -w "gitbook publish %{http_code} (400 = already published, fine)\n" -X POST -H "$H" https://api.gitbook.com/v1/orgs/3LCdcxqOJHNoV0wUxyXQ/sites/site_68aqf/publish
